@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "983886375864",
+    "firebase_url": "https://mywork-943fa.firebaseio.com",
+    "project_id": "mywork-943fa",
+    "storage_bucket": "mywork-943fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983886375864:android:c01c2b896dd21507207d4d",
+        "android_client_info": {
+          "package_name": "com.example.mywork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983886375864-4tmlibrddvdtl7fcrkimvnj9t0osin03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6cQXoJ7cL1YIDIOTitb-hffuFbW045Bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983886375864-4tmlibrddvdtl7fcrkimvnj9t0osin03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
