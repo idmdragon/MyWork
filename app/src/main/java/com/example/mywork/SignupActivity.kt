@@ -51,6 +51,7 @@ class SignupActivity : AppCompatActivity() {
                             db_ref.child(user.uid).setValue(seeker)
                             Toast.makeText(applicationContext, "Akun berhasil ditambah", Toast.LENGTH_LONG).show()
                             startActivity(Intent(this, ProfileActivity::class.java))
+                            finish()
                         }else{
                             Toast.makeText(applicationContext, "Pendaftaran akun gagal", Toast.LENGTH_LONG).show()
                         }
@@ -64,6 +65,7 @@ class SignupActivity : AppCompatActivity() {
         val userCurr = FirebaseAuth.getInstance().currentUser
         if(userCurr!=null){
             startActivity(Intent(this, ProfileActivity::class.java))
+            finish()
         }
     }
 }

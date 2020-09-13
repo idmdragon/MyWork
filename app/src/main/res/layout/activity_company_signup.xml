@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CompanySignupActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/company_signup_header"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textStyle="bold"
+        android:textSize="@dimen/session_title"
+        android:id="@+id/company_signup_title"/>
+    <LinearLayout
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/company_signup_title"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="@dimen/padding">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cs_first"
+            android:textSize="@dimen/text"/>
+        <EditText
+            android:id="@+id/nama_perusahaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Perusahaan"
+            android:paddingHorizontal="@dimen/padding"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/email_perusahaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:paddingHorizontal="@dimen/padding"
+            android:inputType="textEmailAddress"/>
+        <EditText
+            android:id="@+id/no_perusahaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nomor Telepon"
+            android:paddingHorizontal="@dimen/padding"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/alamat_perushaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alamat"
+            android:paddingHorizontal="@dimen/padding"
+            android:inputType="text"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cs_second"
+            android:textSize="@dimen/text"
+            android:layout_marginTop="@dimen/margin"/>
+        <EditText
+            android:id="@+id/nama_pengaju"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Pengaju"
+            android:paddingHorizontal="@dimen/padding"
+            android:inputType="textPersonName"/>
+        <EditText
+            android:id="@+id/email_pengaju"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:paddingHorizontal="@dimen/padding"
+            android:inputType="textEmailAddress"/>
+        <EditText
+            android:id="@+id/no_pengaju"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nomor Telepon"
+            android:paddingHorizontal="@dimen/padding"
+            android:inputType="number"/>
+        <EditText
+            android:id="@+id/jabatan_pengaju"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jabatan di Perusahaan"
+            android:paddingHorizontal="@dimen/padding"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/pass_pengaju"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Kata Sandi Akun Anda"
+            android:paddingHorizontal="@dimen/padding"
+            android:inputType="textPassword"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/kirim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:text="Kirim"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">My Work</string>
+    <string name="company_signup_header">Ajukan Akun</string>
+    <string name="cs_first">Data Informasi Perusahaan</string>
+    <string name="cs_second">Data Informasi Pengaju</string>
 </resources>
